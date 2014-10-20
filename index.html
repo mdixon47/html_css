@@ -434,6 +434,97 @@ http://www.w3.org/TR/html4/strict.dtd&quot;&gt;
 				<section>
 					<h2>Cascading Style Sheets (Presentation)</h2>
 					<p>Cascading Style Sheets (CSS) is a language designed for describing the appearance of documents written in a markup language such as HTML</p>
+					<p>It allows us to add layout and design to our pages, and it allows us to share those styles from element to element and page to page. Before we can unlock all of its features, though, there are a few aspects of the language we must fully understand.</p>
+				</section>
+
+				<section>
+				<h2>CSS Examples</h2>
+				<h3> Mosty Chocolates</h3>
+
+				</section>
+
+				<section>
+					<h2>Default Style Sheet</h2>
+					<p>Each browser come with is own default style sheet</p>
+					<p>Default css style sheet can be overwritten</p>
+					<p>Style sheet can be overwritten by the user</p>
+				</section>
+
+				<section>
+					<h2>CSS Syntax</h2>
+					<img src="images/css-selectors-lrg.png" alt="" />
+					<ul class="no_dot">
+						<li>Selector</li>
+						<li>declaration</li>
+						<li>property</li>
+						<li>value</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Including Css in HTML</h2>
+					<ul class="no_dot">
+						<li>Inline</li>
+						<li>Internal</li>
+						<li>External</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>linking styles sheets</h2>
+					<p>Inline</p>
+				  <pre><code data-trim contenteditable>
+&lt;body style="font: 12px sans-serif;"&gt;
+					</code></pre>
+					<p>Internal</p>
+					<pre><code data-trim contenteditable>
+<sytle type="text/css">
+	body{
+		font: 12px sans-serif;
+	}
+</sytle>	
+					</code></pre>
+					<p>External</p>
+					<pre><code data-trim contenteditable>
+<link rel="stylesheet" href="css/main.css" />
+					</code></pre>
+
+				</section>
+
+				<section>
+					<h2>combining selectors</h2>
+					<p>HTML</p>
+					<pre><code data-trim contenteditable>
+<div class="hotdog">
+  <p>...</p>
+  <p>...</p>
+  <p class="mustard">...</p>
+</div>
+					</code></pre>
+					<p>CSS</p>
+				   <pre><code data-trim contenteditable>
+.hotdog p {
+   background: brown;
+}
+.hotdog p.mustard {
+   background: yellow;
+}
+
+					</code></pre>
+
+				</section>
+
+				<section>
+					<h2>Importance of good markup</h2>
+					<p>Good markup is very important in using CSS</p>
+					<ul>
+						<li>HTML validator <a href="">validator.w3c.org</a></li>
+						<li>CSS validator <a href="">jigsaw.w3.org/css-validator/</a></li>
+					</ul>
+				</section>
+
+				<section>
+					<h1>Lets do some work</h1>
 				</section>
 
 			</div>
